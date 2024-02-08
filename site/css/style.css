@@ -1,3 +1,14 @@
+/** {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+}*/
+
 :root{
     --bg-color: #102937;
     --main-color: #124d54;
@@ -63,8 +74,10 @@ span{
 }
 .about-img img{
     max-width: 100%;
-    width: 580px;
-    height: auto;
+    width: 550px;
+    height: 750px;
+    padding-left: 100px;
+    padding-top: 50px;
 }
 .about-text h3{
     color: var(--text-color);
@@ -110,9 +123,34 @@ span{
   .r1-3-text h2 {
     margin-bottom: 0.5rem;
     font-weight: 500;
-    font-size: var(--h2-font);
+    font-size: 20px;
     line-height: 1.2;
-    /*max-width: 470px;*/
+
     margin-bottom: 2rem;
-    padding-left: 50px
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .r1-3-text p {
+      max-width: 570px;
+      font-size: var(--p-font);
+      font-weight: 300;
+      margin-bottom: 1.5rem;
+      line-height: 1.8rem;
+      color: var(--2nd-main-color);
+      padding-left: 50px;
+  }
+
+  .column {
+      float: left;
+      width: 25%;
+      padding: 0 10px;
+  }
+  .card {
+      height: auto;
+      border-radius: 10px;
+      box-shadow: #000000;
+      padding: 10px;
+      text-align: center;
+      background-color:var(--main-color);
+      width: 1000px;
   }
