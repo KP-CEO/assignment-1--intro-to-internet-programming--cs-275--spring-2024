@@ -1,4 +1,4 @@
-/** {
+/* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -7,7 +7,7 @@
   list-style: none;
   scroll-behavior: smooth;
   scroll-padding-top: 2rem;
-}*/
+} */
 
 :root{
     --bg-color: #102937;
@@ -18,14 +18,15 @@
     --h2-font: 1.9rem
     --big-font: 5rem;
 }
-
 body{
+    font-family: 'Roboto slab', serif;
     background: var(--bg-color);
     cursor: var(--text-color);
     color: var(--text-color);
 }
 
 header{
+    font-family: 'Protest Riot', sans-serif;
     position: fixed;
     width: 100%;
     top: 0;
@@ -75,7 +76,7 @@ span{
 .about-img img{
     max-width: 100%;
     width: 550px;
-    height: 750px;
+    height: 700px;
     padding-left: 100px;
     padding-top: 50px;
     padding-bottom: 100px;
